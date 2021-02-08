@@ -1,6 +1,6 @@
 class Todo {
-  static DONE_MARKER = 'X';
-  static UNDONE_MARKER = ' ';
+  static DONE_MARKER = "X";
+  static UNDONE_MARKER = " ";
 
   constructor(title) {
     this.title = title;
@@ -22,7 +22,7 @@ class Todo {
 
   isDone() {
     return this.done;
-
+  }
   getTitle() {
     return this.title;
   }
